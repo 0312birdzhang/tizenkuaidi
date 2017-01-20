@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width,user-scalable=no"/>
+	<link rel="stylesheet"  href="./lib/tau/mobile/theme/default/tau.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css"/>
+	<title>Tizen Web IDE - Template - Tizen - Tizen Web UI Framework - Multi Page</title>
+</head>
+
+<body>
+	<!-- Start of first page: #one -->
+	<div class="ui-page" id="one">
+		<div class="ui-header">
+			<h1>Mykuaidi for Tizen</h1>
+		</div><!-- /header -->
+		<div class="ui-content">
+			<div id="input-group" class="">
+				<input id="postnum-input" type="text" class="input" placeholder="postnum">
+				<a href="#two" id="postquery" type="button" class="ui-btn">Query</a>
+			</div>
+		</div>
+	</div><!-- /content -->
+
+
+	<!-- Start of second page: #two -->
+	<div class="ui-page" id="two">
+		<div class="ui-header">
+			<h1 id="codenum"></h1>
+		</div><!-- /header -->
+
+		<div class="ui-content">
+			<h2>Two</h2>
+			<p>I have an id of "two" on my page container. I'm the second
+				page container in this multi-page template.</p>
+			<p><a href="#one" class="ui-btn ui-inline">Back to page "one"</a></p>
+		</div><!-- /content -->
+	</div><!-- /page two -->
+
+	<script type="text/javascript" src="./lib/tau/mobile/js/tau.js"></script>
+	<script type="text/javascript" src="./lib/tau/mobile/js/jquery.min.js"></script>
+	<script src="./js/main.js"></script>
+</body>
+</html>
